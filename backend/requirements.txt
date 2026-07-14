@@ -4,3 +4,6 @@ sqlalchemy
 psycopg
 python-dotenv
 alembic
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
