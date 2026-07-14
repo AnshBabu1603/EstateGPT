@@ -18,3 +18,7 @@ DATABASE_URL = URL.create(
     port=int(DB_PORT),
     database=DB_NAME,
 )
+
+print("DB_USER: ", DB_USER)
+print("DB_PASSWORD: ", DB_PASSWORD)
+print("DB_NAME: ", DB_NAME)
